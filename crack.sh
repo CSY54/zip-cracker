@@ -35,7 +35,7 @@ if [ ! -f "$zipfile" ]; then
   exit
 fi
 
-if [ ! -f $dictionary ]; then
+if [ ! -f "$dictionary" ]; then
   echo "[ERROR] Dictionary file not found"
   exit
 fi
